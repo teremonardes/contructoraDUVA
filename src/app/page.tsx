@@ -1,19 +1,18 @@
+import Container from "../components/ui/container";
+import SectionTitle from "../components/ui/SectionTitle";
+
 export default function Home() {
   return (
     <main>
       <section className="py-32">
-        <div className="max-w-7xl mx-auto px-6">
+        <Container>
 
-          <h2 className="text-6xl font-bold text-[var(--primary)] max-w-3xl">
-            Construimos espacios con visión y solidez
-          </h2>
+          <SectionTitle
+            title="Comprometidos con el desarrollo urbano y el bienestar social"
+            subtitle="Sociedad Constructora DUVA desarrolla proyectos con enfoque en calidad, compromiso y excelencia."
+          />
 
-          <p className="mt-6 text-lg max-w-2xl">
-            Sociedad Constructora DUVA desarrolla proyectos con enfoque en calidad,
-            compromiso y excelencia.
-          </p>
-
-        </div>
+        </Container>
       </section>
     </main>
   );
