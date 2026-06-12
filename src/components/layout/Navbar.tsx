@@ -41,7 +41,7 @@ export default function Navbar() {
           {/* LOGO */}
           <Link href="/" onClick={closeDrawer}>
             <Image
-              src="/logo.jpg"
+              src="images/logo.jpg"
               alt="Logo DUVA"
               width={110}
               height={60}
