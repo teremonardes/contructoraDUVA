@@ -17,7 +17,7 @@ export default function Hero({
   image,
 }: HeroProps) {
   return (
-    <section className="relative h-[80vh] min-h-[600px]">
+    <section className="relative min-h-[500px] md:min-h-[600px] h-[70vh] md:h-[80vh]">
 
       {/* Imagen */}
       <Image
@@ -32,7 +32,7 @@ export default function Hero({
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Contenido */}
-      <div className="relative z-10 flex h-full items-center">
+      <div className="relative z-10 flex h-full items-center py-24 md:py-0">
         <Container>
 
           <motion.h1
@@ -47,7 +47,7 @@ export default function Hero({
             transition={{
               duration: 1,
             }}
-            className="max-w-4xl text-5xl md:text-7xl font-semibold text-white"
+            className="max-w-4xl text-3xl md:text-7xl font-semibold text-white"
           >
             {title}
           </motion.h1>
