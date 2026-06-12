@@ -32,7 +32,7 @@ const teamMembers = [
 export default function AboutSection() {
   return (
     <>
-      <section className="pt-24 pb-12">
+      <section className="py-12">
         <Container>
           <SectionTitle
             title="Quiénes Somos"
@@ -41,27 +41,20 @@ export default function AboutSection() {
 
           <div className="max-w-4xl mx-auto text-center text-lg text-gray-600 leading-relaxed space-y-6">
             <p>
-              Sociedad Constructora DUVA es una empresa comprometida con el
-              desarrollo urbano y el bienestar social. Nuestra gestión se centra
-              en abrir caminos hacia una vivienda digna, consolidándonos como
-              especialistas en el desarrollo de proyectos bajo los subsidios DS
-              49 y DS 27.
+             Sociedad Constructora DUVA es una empresa comprometida 
+             con el desarrollo urbano y el bienestar social. 
+             Centramos nuestra gestión en abrir caminos hacia una vivienda digna, 
+             consolidándonos como expertos en el desarrollo de proyectos bajo los subsidios DS 49 y DS 27.
             </p>
 
             <p>
-              Más allá de las obras y la infraestructura, nuestro principal
-              compromiso son las personas. Participamos en cada proyecto con la
-              sensibilidad, responsabilidad y rigurosidad que implica construir
-              el hogar de una familia y contribuir al desarrollo de una
-              comunidad.
+              Sin embargo, nuestro verdadero motor no son las estructuras, sino las personas. 
+              Nos involucramos en cada proyecto con la sensibilidad y rigurosidad que requiere 
+              construir el hogar de una familia. No solo edificamos viviendas o mejoramos entornos; 
+              cumplimos promesas, devolvemos la tranquilidad y transformamos los espacios para 
+              cambiar vidas de manera permanente.
             </p>
 
-            <p>
-              En DUVA no solo construimos viviendas o mejoramos entornos
-              urbanos; trabajamos para generar espacios que entreguen seguridad,
-              bienestar y nuevas oportunidades, transformando positivamente la
-              vida de quienes los habitan.
-            </p>
           </div>
         </Container>
       </section>

@@ -41,7 +41,7 @@ export default function Navbar() {
           {/* LOGO */}
           <Link href="/" onClick={closeDrawer}>
             <Image
-              src="images/logo.jpg"
+              src="/images/logo.jpg"
               alt="Logo DUVA"
               width={110}
               height={60}
@@ -108,7 +108,7 @@ export default function Navbar() {
         {/* HEADER DEL DRAWER */}
         <div className="flex items-center justify-between px-6 h-20 border-b border-gray-100">
           <Link href="/" onClick={closeDrawer}>
-            <Image src="/logo.jpg" alt="Logo DUVA" width={90} height={48} priority />
+            <Image src="/images/logo.jpg" alt="Logo DUVA" width={90} height={48} priority />
           </Link>
           <button
             onClick={closeDrawer}
