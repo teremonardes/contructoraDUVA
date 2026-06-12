@@ -1,19 +1,25 @@
-import Container from "../components/ui/container";
-import SectionTitle from "../components/ui/SectionTitle";
+import Hero from "@/src/components/ui/Hero";
+
+import AboutSection from "@/src/components/sections/about";
+import ClientsSection from "@/src/components/sections/clients";
+import MissionVisionSection from "@/src/components/sections/missionvision";
 
 export default function Home() {
   return (
     <main>
-      <section className="py-32">
-        <Container>
+      <Hero
+        title="Comprometidos con el desarrollo urbano y el bienestar social"
+        subtitle="Especialistas en proyectos habitacionales y urbanos, comprometidos con la calidad, la innovación y el bienestar de las comunidades."
+        image="/images/hero.jpg"
+      />
 
-          <SectionTitle
-            title="Comprometidos con el desarrollo urbano y el bienestar social"
-            subtitle="Sociedad Constructora DUVA desarrolla proyectos con enfoque en calidad, compromiso y excelencia."
-          />
+      <AboutSection />
 
-        </Container>
-      </section>
+      <ClientsSection />
+
+      <div className="bg-[var(--primary-light)]">
+        <MissionVisionSection />
+      </div>
     </main>
   );
 }
